@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
 	int calcs = 0;
 
-	ifstream file("hey.txt");
+	ifstream file("input.txt");
 
 	string l;
 	while (getline(file, l)) {
